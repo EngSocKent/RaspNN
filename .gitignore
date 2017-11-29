@@ -6,6 +6,8 @@
 *.user
 *.userosscache
 *.sln.docstates
+RCCar/dataset/negative/img
+RCCar/dataset/positive/img
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
