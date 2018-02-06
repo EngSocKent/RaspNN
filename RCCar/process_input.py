@@ -10,7 +10,7 @@ def process_simplify_image(image):
     return thresh
 
 def process_video_file(path):
-    cap = cv2.VideoCapture(path)
+    cap = cv2.VideoCapture(0)
     print(cap)
     print(cap.isOpened())
     while (cap.isOpened()):
